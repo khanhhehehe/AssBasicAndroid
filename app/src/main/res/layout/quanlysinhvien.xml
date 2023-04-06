@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#FF9800"
+        android:text="QUẢN LÝ SINH VIÊN"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+        />
+    <Button
+        android:id="@+id/btn_addclass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm lớp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:backgroundTint="#2196F3"
+        android:onClick="ShowDialogAdd"
+        />
+    <Button
+        android:id="@+id/btn_showclass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xem danh sách lớp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:backgroundTint="#2196F3"
+        />
+    <Button
+        android:id="@+id/btn_quanlysv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quản lý sinh viên"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:backgroundTint="#2196F3"
+        />
+    <WebView
+        android:id="@+id/wv_gthieu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="30dp"
+        />
+</LinearLayout>

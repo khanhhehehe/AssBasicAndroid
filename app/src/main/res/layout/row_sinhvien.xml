@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    >
+
+    <TextView
+        android:id="@+id/tv_sttsv"
+        android:layout_width="28dp"
+        android:layout_height="wrap_content"
+        android:text="STT"
+        />
+    <TextView
+        android:id="@+id/tv_masv"
+        android:layout_width="15dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Mã sinh viên"
+        />
+    <TextView
+        android:id="@+id/tv_hoten"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Họ tên"
+        />
+    <TextView
+        android:id="@+id/tv_ngaysinh"
+        android:layout_width="50dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Ngày sinh"
+        />
+    <TextView
+        android:id="@+id/tv_sdt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Số điện thoại"
+        />
+    <TextView
+        android:id="@+id/tv_idlop"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginLeft="5dp"
+        android:text="Lớp"
+        />
+</LinearLayout>
